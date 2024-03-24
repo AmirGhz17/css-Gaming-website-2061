@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('Poppins-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url('Poppins-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('Poppins-Medium.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('Poppins-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url('Rubik-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url('Rubik-Medium.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url('Rubik-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url('Poppins-Thin.ttf');
+    font-weight: 300;
+}
+
+html {
+    width: 1440px;
+    position: relative;
+    left: 60px;
+}
+
+body {
+
+    margin: 0px;
+    display: block;
+    padding: 0px;
+    width: 1440px;
+    padding-bottom: 0px;
+    position: relative;
+
+
+
+}
+
+header {
+    position: relative;
+    max-width: 1440px;
+    padding-bottom: 25px;
+    background-color: #3B2A9F;
+    z-index: 1;
+
+
+
+}
+
+#active1 {
+
+    background-color: #FA8305;
+    width: 38px;
+    height: 4px;
+    border-radius: 20px;
+    position: relative;
+    left: 860px;
+    bottom: 10px;
+
+}
+
+#active2 {
+
+    background-color: #FA8305;
+    width: 5px;
+    height: 4px;
+    border-radius: 20px;
+    position: relative;
+    left: 900px;
+    bottom: 14px;
+
+}
+
+header h1 {
+
+    position: relative;
+    top: 30px;
+    color: #FFFFFF;
+    left: 60px;
+    font-family: Poppins-ExtraBold;
+    font-size: 29px;
+}
+
+header nav {
+    position: relative;
+    text-align: right;
+    bottom: 17px;
+
+
+}
+
+
+header nav a:active {
+
+    border-bottom: solid #FA8305;
+
+
+
+
+}
+
+nav>a {
+
+    text-decoration: none;
+    margin-left: 70px;
+
+    position: relative;
+    right: 60px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: white;
+
+}
+
+#News {
+    margin-right: 70px;
+}
+
+a {
+
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 20px;
+    color: white;
+
+}
+
+#a_art {
+    color: white;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+}
+
+#art1 {
+    background-color: #FA8305;
+    padding: 9px 14px 8px 5px;
+    display: inline;
+    border-radius: 5px;
+    position: relative;
+    right: 60px;
+}
+
+#first_div {
+
+
+    background-color: #3B2A9F;
+    display: flex;
+
+
+}
+
+#left_first_div {
+    position: relative;
+    margin-right: 480px;
+    margin-left: 120px;
+    margin-top: 90px;
+    display: block;
+}
+
+#first_img {
+
+    width: 739px;
+    height: 656px;
+
+
+
+
+}
+
+#Home_Games {
+    width: 99px;
+    height: 25px;
+
+
+
+}
+
+#p1_Home_Games {
+    display: flex;
+    position: relative;
+    right: 20px;
+    margin-bottom: 20px;
+
+}
+
+#a1_Home_Games {
+    color: white;
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    width: 350px;
+}
+
+#a2_Home_Games {
+    color: #FA8305;
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    width: 350px;
+    position: relative;
+    right: 20px;
+
+}
+
+#symbol {
+    color: white;
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    width: 350px;
+    position: relative;
+    right: 5px;
+    bottom: 12px;
+}
+
+#p1_Home_Games p {
+    color: white;
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    width: 350px;
+}
+
+
+#span {
+    color: #FA8305;
+}
+
+#p2_Home_Games {
+    color: white;
+    font-family: Poppins-Bold;
+    font-size: 30px;
+    line-height: 54px;
+    width: 450px;
+    margin-top: 0px;
+}
+
+#p3_Home_Games {
+    color: white;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    line-height: 34px;
+    width: 450px;
+    margin-top: 30px;
+}
